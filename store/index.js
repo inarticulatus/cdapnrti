@@ -4,7 +4,7 @@ export const state = () => ({
     {
        id: 2,
        title: 'Chocolate Milk - 250 mL',
-       description: 'High Quality Milk for on the go.',
+       description: 'High Quality Milk for on the go. Loaded with rich nutrients, all natural.',
        price: 35,
        ratings: 5,
        reviews: 10,
