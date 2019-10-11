@@ -1,0 +1,36 @@
+backend:
+  name: github
+  repo: cdapnrti/cdapnrti.github.io
+  branch: master
+
+media_folder: media_folder
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: inarticulatus
+    api_key: 652137824359424
+
+
+
+collections:
+- name: product
+  label: Products
+  folder: 'assets/products/'
+  create: true
+  format: 'json'
+  fields:
+  - {name: id, label: id}
+  - {name: title, label: Title}
+  - {name: description, label: Body, widget: markdown}
+  - {name: price, label: Price}
+  - {name: picURL, widget: image}
+
+
+- name: photos
+  label: Photos
+  folder: photos
+  create: true
+  fields:
+  - {name: title, label: Title}
+  - {name: body, label: Body, widget: image}
+  
