@@ -52,7 +52,7 @@ export const state = () => ({
       isAddedBtn: false,
       isFavourite: false,
       quantity: 1,
-      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/h_400/v1570611046/strawberry_yoghurt.jpg"
+      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570820437/strawberry_yoghurt.jpg"
     },
   
 //      {
