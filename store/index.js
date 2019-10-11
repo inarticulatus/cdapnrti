@@ -12,7 +12,7 @@ export const state = () => ({
        isAddedBtn: false,
        isFavourite: false,
        quantity: 1,
-       picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570611046/cheese_tpnb0k.jpg"
+       picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570611046/choco_milk.jpg"
      },
     {
       id: 3,
@@ -39,7 +39,7 @@ export const state = () => ({
       isAddedBtn: false,
       isFavourite: false,
       quantity: 1,
-      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570611046/cheese_tpnb0k.jpg"
+      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570611046/frozen_peas.jpg"
     },
     {
       id: 5,
@@ -52,7 +52,7 @@ export const state = () => ({
       isAddedBtn: false,
       isFavourite: false,
       quantity: 1,
-      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570611046/cheese_tpnb0k.jpg"
+      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570611046/strawberry_yoghurt.jpg"
     },
   
 //      {
