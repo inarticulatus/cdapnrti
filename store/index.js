@@ -39,7 +39,7 @@ export const state = () => ({
       isAddedBtn: false,
       isFavourite: false,
       quantity: 1,
-      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570611046/frozen_peas.jpg"
+      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/w_200/v1570611046/frozen_peas.jpg"
     },
     {
       id: 5,
@@ -52,7 +52,7 @@ export const state = () => ({
       isAddedBtn: false,
       isFavourite: false,
       quantity: 1,
-      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570820437/strawberry_yoghurt.jpg"
+      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/w_300/v1570820437/strawberry_yoghurt.jpg"
     },
   
 //      {
