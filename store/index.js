@@ -1,26 +1,80 @@
 export const state = () => ({
   products: [
-  
-     {
-    //   id: 2,
-    //   title: 'Product 2',
-    //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    //   price: 35,
-    //   ratings: 5,
-    //   reviews: 10,
+    
+    {
+       id: 2,
+       title: 'Chocolate Milk - 250 mL',
+       description: 'High Quality Milk for on the go.',
+       price: 35,
+       ratings: 5,
+       reviews: 10,
+       isAddedToCart: false,
+       isAddedBtn: false,
+       isFavourite: false,
+       quantity: 1,
+       picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570611046/cheese_tpnb0k.jpg"
+     },
+    {
+      id: 3,
+      title: 'Cheese',
+      description: 'Smoky cheese. Tastes best with Pizza and Mozzarella. ',
+      price: 110,
+      ratings: 2,
+      reviews: 3,
       isAddedToCart: false,
       isAddedBtn: false,
       isFavourite: false,
-    //   quantity: 1
-     },
-    // {
-    //   id: 3,
-    //   title: 'Product 3',
-    //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    //   price: 110,
-    //   ratings: 2,
-    //   reviews: 3,
-    //   isAddedToCart: false,
+      quantity: 1,
+      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570611046/cheese_tpnb0k.jpg"
+
+    },
+    {
+      id: 4,
+      title: 'Frozen Peas - 500gm Pack',
+      description: 'Ready to use frozen peas, that have been carefuly processed to lock in the freshness.',
+      price: 50,
+      ratings: 1,
+      reviews: 0,
+      isAddedToCart: false,
+      isAddedBtn: false,
+      isFavourite: false,
+      quantity: 1,
+      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570611046/cheese_tpnb0k.jpg"
+    },
+    {
+      id: 5,
+      title: 'Strawberry Yoghurt - 100 mL',
+      description: 'Yoghurt has never tasted better.',
+      price: 35,
+      ratings: 4,
+      reviews: 2,
+      isAddedToCart: false,
+      isAddedBtn: false,
+      isFavourite: false,
+      quantity: 1,
+      picURL: "https://res.cloudinary.com/inarticulatus/image/upload/v1570611046/cheese_tpnb0k.jpg"
+    },
+  
+//      {
+//      id: 2,
+//        title: 'Product 2',
+//        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+//        price: 35,
+//        ratings: 5,
+//        reviews: 10,
+//        isAddedToCart: false,
+//        isAddedBtn: false,
+//        isFavourite: false,
+//        quantity: 1
+//      },
+//     {
+//        id: 3,
+//        title: 'Product 3',
+//        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+//        price: 110,
+//        ratings: 2,
+//        reviews: 3,
+//        isAddedToCart: false,
     //   isAddedBtn: false,
     //   isFavourite: false,
     //   quantity: 1
