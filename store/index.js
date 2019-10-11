@@ -16,7 +16,7 @@ export const state = () => ({
      },
     {
       id: 3,
-      title: 'Cheese - 100gm',/
+      title: 'Cheese - 100gm',
       description: 'Smoky cheese. Tastes best with Pizza and Sandwich. ',
       price: 110,
       ratings: 2,
